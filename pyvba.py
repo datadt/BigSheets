@@ -1,7 +1,7 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-@Author:      cz
+@Author:      datadt
 @Tool:        Sublime Text3
 @DateTime:    2018-12-20 12:17:39
 '''
@@ -57,7 +57,6 @@ def Mergefiles():
 #帮助
 def tips():
 	tkinter.messagebox.showinfo('帮助','1.初始化请保持网络畅通,需配置相关文件;\n2.表格文件的合并暂时支持xls/xlsx/csv格式;\n3.将要合并的文件放在与程序同一文件夹下;\n4.下拉选择合并模式后再点击开始合并按钮;\n5.本程序由datadt开发,仅供个人学习使用！\n--------------搭塔@2018--------------')
-
 #菜单
 def menus(myapp):
     menu=tk.Menu(myapp)
